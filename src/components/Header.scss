@@ -1,0 +1,18 @@
+section.app {
+  .sticky-scroll {
+    // 일반 헤더 style
+    .header {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      height: 30px;
+      background-color: cornflowerblue;
+      font-size: 14px;
+
+      // 고정 헤더 style
+      &.fixed {
+        position: absolute;
+      }
+    }
+  }
+}
